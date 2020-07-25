@@ -12,6 +12,8 @@ paystack = "0.1.1"
 
 * Initialise Paystack
 ```rust
+    use paystack::transaction::Paystack
+    
     pub async fn main() -> Result<(), Error> {
         let _paystack = Paystack::new("sk_test_00000000000000000000000000000".to_string());
         Ok(())
