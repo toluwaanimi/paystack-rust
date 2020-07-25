@@ -7,7 +7,7 @@ Paystack Package for Rust
 
 ### Install Package
 ```bash
-
+paystack = "0.1.1"
 ```
 
 * Initialise Paystack
